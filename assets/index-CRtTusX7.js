@@ -4519,19 +4519,21 @@ No matching component was found for:
   }
 }
 `);var aj=(0,b.memo)((0,b.forwardRef)((function(e,t){var n=e.sequence,r=e.repeat,i=e.className,a=e.speed,o=a===void 0?40:a,s=e.deletionSpeed,c=e.omitDeletionAnimation,l=c!==void 0&&c,u=e.preRenderFirstString,d=u!==void 0&&u,f=e.wrapper,p=f===void 0?`span`:f,m=e.splitter,h=m===void 0?function(e){return ZA([],XA(e),!1)}:m,g=e.cursor,_=g===void 0||g,v=e.style,y=function(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&t.indexOf(r)<0&&(n[r]=e[r]);if(e!=null&&typeof Object.getOwnPropertySymbols==`function`){var i=0;for(r=Object.getOwnPropertySymbols(e);i<r.length;i++)t.indexOf(r[i])<0&&Object.prototype.propertyIsEnumerable.call(e,r[i])&&(n[r[i]]=e[r[i]])}return n}(e,[`sequence`,`repeat`,`className`,`speed`,`deletionSpeed`,`omitDeletionAnimation`,`preRenderFirstString`,`wrapper`,`splitter`,`cursor`,`style`]),x=y[`aria-label`],S=y[`aria-hidden`],C=y.role;s||=o;var w=[,,].fill(40);[o,s].forEach((function(e,t){switch(typeof e){case`number`:w[t]=Math.abs(e-100);break;case`object`:var n=e.type,r=e.value;if(typeof r!=`number`)break;n===`keyStrokeDelayInMs`&&(w[t]=r)}}));var T,E,D,O,k,A,ee=w[0],te=w[1],j=function(e,t){t===void 0&&(t=null);var n=(0,b.useRef)(t);return(0,b.useEffect)((function(){e&&(typeof e==`function`?e(n.current):e.current=n.current)}),[e]),n}(t),ne=ij;T=i?`${_?ne+` `:``}${i}`:_?ne:``,E=(0,b.useRef)((function(){var e,t=n;r===1/0?e=QA:typeof r==`number`&&(t=Array(1+r).fill(n).flat());var i=e?ZA(ZA([],XA(t),!1),[e],!1):ZA([],XA(t),!1);return QA.apply(void 0,ZA([j.current,h,ee,te,l],XA(i),!1)),function(){j.current}})),D=(0,b.useRef)(),O=(0,b.useRef)(!1),k=(0,b.useRef)(!1),A=XA((0,b.useState)(0),2)[1],O.current&&(k.current=!0),(0,b.useEffect)((function(){return O.current||(D.current=E.current(),O.current=!0),A((function(e){return e+1})),function(){k.current&&D.current&&D.current()}}),[]);var re=p,M=d?n.find((function(e){return typeof e==`string`}))||``:null;return b.createElement(re,{"aria-hidden":S,"aria-label":x,role:C,style:v,className:T,children:x?b.createElement(`span`,{"aria-hidden":`true`,ref:j,children:M}):M,ref:x?void 0:j})})),(function(e,t){return!0})),oj=`/assets/hero-DlLwhCNa.jpeg`;function sj(){return(0,H.jsxs)(`section`,{id:`home`,className:`\r
-        relative\r
-        min-h-screen\r
-        overflow-hidden\r
-        flex\r
-        items-center\r
-        bg-[#050816]\r
-        text-white\r
-        px-6\r
-        md:px-10\r
-        lg:px-20\r
-        pt-28\r
-        pb-24\r
-      `,children:[(0,H.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden pointer-events-none`,children:[(0,H.jsx)(G.div,{animate:{x:[0,100,-80,0],y:[0,-60,70,0],scale:[1,1.2,.9,1]},transition:{duration:18,repeat:1/0,ease:`easeInOut`},className:`\r
+  relative\r
+  min-h-screen\r
+  w-full\r
+  overflow-hidden\r
+  flex\r
+  flex-row\r
+  items-center\r
+  justify-between\r
+  gap-2\r
+  px-3\r
+  sm:px-6\r
+  md:px-10\r
+  lg:px-20\r
+  py-6\r
+`,children:[(0,H.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden pointer-events-none`,children:[(0,H.jsx)(G.div,{animate:{x:[0,100,-80,0],y:[0,-60,70,0],scale:[1,1.2,.9,1]},transition:{duration:18,repeat:1/0,ease:`easeInOut`},className:`\r
             absolute\r
             -top-40\r
             -left-40\r
@@ -4573,18 +4575,21 @@ No matching component was found for:
             gap-16\r
             items-center\r
           `,children:[(0,H.jsxs)(G.div,{initial:{opacity:0,x:-70},animate:{opacity:1,x:0},transition:{duration:1},children:[(0,H.jsxs)(G.div,{initial:{opacity:0,y:-20},animate:{opacity:1,y:0},transition:{delay:.3,duration:.7},className:`\r
-                inline-flex\r
-                items-center\r
-                gap-3\r
-                px-5\r
-                py-3\r
-                rounded-full\r
-                bg-cyan-400/5\r
-                border\r
-                border-cyan-400/20\r
-                backdrop-blur-xl\r
-                mb-7\r
-              `,children:[(0,H.jsxs)(`span`,{className:`relative flex h-3 w-3`,children:[(0,H.jsx)(`span`,{className:`\r
+inline-flex\r
+items-center\r
+gap-2\r
+px-3\r
+py-2\r
+sm:px-5\r
+sm:py-3\r
+rounded-full\r
+bg-cyan-400/5\r
+border\r
+border-cyan-400/20\r
+backdrop-blur-xl\r
+mb-4\r
+sm:mb-7\r
+`,children:[(0,H.jsxs)(`span`,{className:`relative flex h-3 w-3`,children:[(0,H.jsx)(`span`,{className:`\r
                     absolute\r
                     inline-flex\r
                     h-full\r
@@ -4601,25 +4606,29 @@ No matching component was found for:
                     rounded-full\r
                     bg-cyan-400\r
                   `})]}),(0,H.jsx)(`span`,{className:`\r
-                  text-cyan-300\r
-                  text-xs\r
-                  md:text-sm\r
-                  font-semibold\r
-                  tracking-[0.18em]\r
-                `,children:`EEE • TECHNOLOGY • INNOVATION`})]}),(0,H.jsx)(G.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.5},className:`\r
-                text-gray-400\r
-                text-lg\r
-                md:text-xl\r
-                tracking-wide\r
-              `,children:`Hello, I'm`}),(0,H.jsxs)(`h1`,{className:`\r
-                text-6xl\r
-                sm:text-7xl\r
-                md:text-8xl\r
-                font-black\r
-                leading-[0.95]\r
-                tracking-tight\r
-                mt-3\r
-              `,style:{fontFamily:`'Space Grotesk', sans-serif`},children:[`Aftab`,(0,H.jsx)(`br`,{}),(0,H.jsx)(`span`,{className:`\r
+  text-cyan-300\r
+  text-[8px]\r
+  sm:text-xs\r
+  md:text-sm\r
+  font-semibold\r
+  tracking-[0.12em]\r
+  sm:tracking-[0.18em]\r
+`,children:`EEE • TECHNOLOGY • INNOVATION`})]}),(0,H.jsx)(G.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.5},className:`\r
+  text-gray-400\r
+  text-xs\r
+  sm:text-base\r
+  md:text-xl\r
+  tracking-wide\r
+`,children:`Hello, I'm`}),(0,H.jsxs)(`h1`,{className:`\r
+  text-4xl\r
+  sm:text-5xl\r
+  md:text-7xl\r
+  lg:text-8xl\r
+  font-black\r
+  leading-[0.95]\r
+  tracking-tight\r
+  mt-2\r
+`,style:{fontFamily:`'Space Grotesk', sans-serif`},children:[`Aftab`,(0,H.jsx)(`br`,{}),(0,H.jsx)(`span`,{className:`\r
                   bg-gradient-to-r\r
                   from-cyan-400\r
                   via-purple-400\r
