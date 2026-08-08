@@ -4742,22 +4742,24 @@ No matching component was found for:
                 bg-cyan-400/10\r
                 blur-[80px]\r
               `}),(0,H.jsx)(G.div,{animate:{y:[0,-8,0]},transition:{duration:5,repeat:1/0,ease:`easeInOut`},className:`\r
-                relative\r
-                z-10\r
-                w-[270px]\r
-                h-[350px]\r
-                sm:w-[320px]\r
-                sm:h-[410px]\r
-                md:w-[360px]\r
-                md:h-[450px]\r
-                p-[3px]\r
-                rounded-[40px]\r
-                bg-gradient-to-br\r
-                from-cyan-400\r
-                via-purple-500\r
-                to-pink-500\r
-                shadow-[0_0_80px_rgba(34,211,238,0.18)]\r
-              `,children:(0,H.jsxs)(`div`,{className:`\r
+  relative\r
+  z-10\r
+  w-[210px]\r
+  h-[275px]\r
+  sm:w-[270px]\r
+  sm:h-[345px]\r
+  md:w-[320px]\r
+  md:h-[400px]\r
+  lg:w-[360px]\r
+  lg:h-[450px]\r
+  p-[3px]\r
+  rounded-[35px]\r
+  bg-gradient-to-br\r
+  from-cyan-400\r
+  via-purple-500\r
+  to-pink-500\r
+  shadow-[0_0_60px_rgba(34,211,238,0.18)]\r
+`,children:(0,H.jsxs)(`div`,{className:`\r
                   relative\r
                   w-full\r
                   h-full\r
