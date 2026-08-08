@@ -4519,49 +4519,46 @@ No matching component was found for:
   }
 }
 `);var aj=(0,b.memo)((0,b.forwardRef)((function(e,t){var n=e.sequence,r=e.repeat,i=e.className,a=e.speed,o=a===void 0?40:a,s=e.deletionSpeed,c=e.omitDeletionAnimation,l=c!==void 0&&c,u=e.preRenderFirstString,d=u!==void 0&&u,f=e.wrapper,p=f===void 0?`span`:f,m=e.splitter,h=m===void 0?function(e){return ZA([],XA(e),!1)}:m,g=e.cursor,_=g===void 0||g,v=e.style,y=function(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&t.indexOf(r)<0&&(n[r]=e[r]);if(e!=null&&typeof Object.getOwnPropertySymbols==`function`){var i=0;for(r=Object.getOwnPropertySymbols(e);i<r.length;i++)t.indexOf(r[i])<0&&Object.prototype.propertyIsEnumerable.call(e,r[i])&&(n[r[i]]=e[r[i]])}return n}(e,[`sequence`,`repeat`,`className`,`speed`,`deletionSpeed`,`omitDeletionAnimation`,`preRenderFirstString`,`wrapper`,`splitter`,`cursor`,`style`]),x=y[`aria-label`],S=y[`aria-hidden`],C=y.role;s||=o;var w=[,,].fill(40);[o,s].forEach((function(e,t){switch(typeof e){case`number`:w[t]=Math.abs(e-100);break;case`object`:var n=e.type,r=e.value;if(typeof r!=`number`)break;n===`keyStrokeDelayInMs`&&(w[t]=r)}}));var T,E,D,O,k,A,ee=w[0],te=w[1],j=function(e,t){t===void 0&&(t=null);var n=(0,b.useRef)(t);return(0,b.useEffect)((function(){e&&(typeof e==`function`?e(n.current):e.current=n.current)}),[e]),n}(t),ne=ij;T=i?`${_?ne+` `:``}${i}`:_?ne:``,E=(0,b.useRef)((function(){var e,t=n;r===1/0?e=QA:typeof r==`number`&&(t=Array(1+r).fill(n).flat());var i=e?ZA(ZA([],XA(t),!1),[e],!1):ZA([],XA(t),!1);return QA.apply(void 0,ZA([j.current,h,ee,te,l],XA(i),!1)),function(){j.current}})),D=(0,b.useRef)(),O=(0,b.useRef)(!1),k=(0,b.useRef)(!1),A=XA((0,b.useState)(0),2)[1],O.current&&(k.current=!0),(0,b.useEffect)((function(){return O.current||(D.current=E.current(),O.current=!0),A((function(e){return e+1})),function(){k.current&&D.current&&D.current()}}),[]);var re=p,M=d?n.find((function(e){return typeof e==`string`}))||``:null;return b.createElement(re,{"aria-hidden":S,"aria-label":x,role:C,style:v,className:T,children:x?b.createElement(`span`,{"aria-hidden":`true`,ref:j,children:M}):M,ref:x?void 0:j})})),(function(e,t){return!0})),oj=`/assets/hero-DlLwhCNa.jpeg`;function sj(){return(0,H.jsxs)(`section`,{id:`home`,className:`\r
-  relative\r
-  min-h-screen\r
-  w-full\r
-  overflow-hidden\r
-  flex\r
-  flex-row\r
-  items-center\r
-  justify-between\r
-  gap-2\r
-  px-3\r
-  sm:px-6\r
-  md:px-10\r
-  lg:px-20\r
-  py-6\r
-`,children:[(0,H.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden pointer-events-none`,children:[(0,H.jsx)(G.div,{animate:{x:[0,100,-80,0],y:[0,-60,70,0],scale:[1,1.2,.9,1]},transition:{duration:18,repeat:1/0,ease:`easeInOut`},className:`\r
+        relative\r
+        min-h-screen\r
+        w-full\r
+        overflow-hidden\r
+        flex\r
+        items-center\r
+        px-3\r
+        sm:px-6\r
+        md:px-10\r
+        lg:px-20\r
+        py-8\r
+      `,children:[(0,H.jsxs)(`div`,{className:`absolute inset-0 overflow-hidden pointer-events-none`,children:[(0,H.jsx)(G.div,{animate:{x:[0,80,-60,0],y:[0,-50,60,0],scale:[1,1.15,.9,1]},transition:{duration:18,repeat:1/0,ease:`easeInOut`},className:`\r
             absolute\r
             -top-40\r
             -left-40\r
-            w-[500px]\r
-            h-[500px]\r
+            w-[450px]\r
+            h-[450px]\r
             rounded-full\r
             bg-cyan-500/10\r
-            blur-[130px]\r
-          `}),(0,H.jsx)(G.div,{animate:{x:[0,-100,70,0],y:[0,80,-50,0],scale:[1,.8,1.15,1]},transition:{duration:20,repeat:1/0,ease:`easeInOut`},className:`\r
+            blur-[120px]\r
+          `}),(0,H.jsx)(G.div,{animate:{x:[0,-80,60,0],y:[0,60,-40,0],scale:[1,.85,1.1,1]},transition:{duration:20,repeat:1/0,ease:`easeInOut`},className:`\r
             absolute\r
             -bottom-40\r
             -right-40\r
-            w-[500px]\r
-            h-[500px]\r
+            w-[450px]\r
+            h-[450px]\r
             rounded-full\r
             bg-purple-500/10\r
-            blur-[130px]\r
+            blur-[120px]\r
           `}),(0,H.jsx)(`div`,{className:`\r
             absolute\r
             top-1/2\r
             left-1/2\r
             -translate-x-1/2\r
             -translate-y-1/2\r
-            w-[350px]\r
-            h-[350px]\r
+            w-[300px]\r
+            h-[300px]\r
             rounded-full\r
             bg-pink-500/5\r
-            blur-[120px]\r
+            blur-[100px]\r
           `}),(0,H.jsx)(`div`,{className:`\r
             absolute\r
             inset-0\r
@@ -4570,26 +4567,30 @@ No matching component was found for:
             bg-[size:55px_55px]\r
           `})]}),(0,H.jsx)(`div`,{className:`relative z-10 max-w-7xl mx-auto w-full`,children:(0,H.jsxs)(`div`,{className:`\r
             grid\r
-            grid-cols-1\r
+            grid-cols-[1.15fr_0.85fr]\r
+            sm:grid-cols-[1.15fr_0.85fr]\r
             lg:grid-cols-2\r
-            gap-16\r
+            gap-2\r
+            sm:gap-8\r
+            lg:gap-16\r
             items-center\r
-          `,children:[(0,H.jsxs)(G.div,{initial:{opacity:0,x:-70},animate:{opacity:1,x:0},transition:{duration:1},children:[(0,H.jsxs)(G.div,{initial:{opacity:0,y:-20},animate:{opacity:1,y:0},transition:{delay:.3,duration:.7},className:`\r
-inline-flex\r
-items-center\r
-gap-2\r
-px-3\r
-py-2\r
-sm:px-5\r
-sm:py-3\r
-rounded-full\r
-bg-cyan-400/5\r
-border\r
-border-cyan-400/20\r
-backdrop-blur-xl\r
-mb-4\r
-sm:mb-7\r
-`,children:[(0,H.jsxs)(`span`,{className:`relative flex h-3 w-3`,children:[(0,H.jsx)(`span`,{className:`\r
+          `,children:[(0,H.jsxs)(G.div,{initial:{opacity:0,x:-50},animate:{opacity:1,x:0},transition:{duration:1},className:`min-w-0`,children:[(0,H.jsxs)(G.div,{initial:{opacity:0,y:-20},animate:{opacity:1,y:0},transition:{delay:.3,duration:.7},className:`\r
+                inline-flex\r
+                items-center\r
+                gap-1.5\r
+                px-2\r
+                py-1.5\r
+                sm:px-4\r
+                sm:py-2.5\r
+                rounded-full\r
+                bg-cyan-400/5\r
+                border\r
+                border-cyan-400/20\r
+                backdrop-blur-xl\r
+                mb-4\r
+                sm:mb-6\r
+                max-w-full\r
+              `,children:[(0,H.jsxs)(`span`,{className:`relative flex h-2 w-2 sm:h-3 sm:w-3 shrink-0`,children:[(0,H.jsx)(`span`,{className:`\r
                     absolute\r
                     inline-flex\r
                     h-full\r
@@ -4601,178 +4602,233 @@ sm:mb-7\r
                   `}),(0,H.jsx)(`span`,{className:`\r
                     relative\r
                     inline-flex\r
-                    h-3\r
-                    w-3\r
+                    h-2\r
+                    w-2\r
+                    sm:h-3\r
+                    sm:w-3\r
                     rounded-full\r
                     bg-cyan-400\r
                   `})]}),(0,H.jsx)(`span`,{className:`\r
-  text-cyan-300\r
-  text-[8px]\r
-  sm:text-xs\r
-  md:text-sm\r
-  font-semibold\r
-  tracking-[0.12em]\r
-  sm:tracking-[0.18em]\r
-`,children:`EEE • TECHNOLOGY • INNOVATION`})]}),(0,H.jsx)(G.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.5},className:`\r
-  text-gray-400\r
-  text-xs\r
-  sm:text-base\r
-  md:text-xl\r
-  tracking-wide\r
-`,children:`Hello, I'm`}),(0,H.jsxs)(`h1`,{className:`\r
-  text-4xl\r
-  sm:text-5xl\r
-  md:text-7xl\r
-  lg:text-8xl\r
-  font-black\r
-  leading-[0.95]\r
-  tracking-tight\r
-  mt-2\r
-`,style:{fontFamily:`'Space Grotesk', sans-serif`},children:[`Aftab`,(0,H.jsx)(`br`,{}),(0,H.jsx)(`span`,{className:`\r
+                  text-cyan-300\r
+                  text-[6px]\r
+                  sm:text-xs\r
+                  md:text-sm\r
+                  font-semibold\r
+                  tracking-[0.08em]\r
+                  sm:tracking-[0.18em]\r
+                  whitespace-nowrap\r
+                `,children:`EEE • TECHNOLOGY • INNOVATION`})]}),(0,H.jsx)(G.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.5},className:`\r
+                text-gray-400\r
+                text-[11px]\r
+                sm:text-base\r
+                md:text-xl\r
+                tracking-wide\r
+              `,children:`Hello, I'm`}),(0,H.jsxs)(`h1`,{className:`\r
+                text-[38px]\r
+                sm:text-5xl\r
+                md:text-7xl\r
+                lg:text-8xl\r
+                font-black\r
+                leading-[0.95]\r
+                tracking-tight\r
+                mt-2\r
+              `,style:{fontFamily:`'Space Grotesk', sans-serif`},children:[`Aftab`,(0,H.jsx)(`br`,{}),(0,H.jsx)(`span`,{className:`\r
                   bg-gradient-to-r\r
                   from-cyan-400\r
                   via-purple-400\r
                   to-pink-400\r
                   bg-clip-text\r
                   text-transparent\r
-                `,children:`Alam`})]}),(0,H.jsx)(`div`,{className:`mt-8 min-h-[55px]`,children:(0,H.jsx)(aj,{sequence:[`Electrical & Electronics Engineer`,2e3,`Engineering Technology Enthusiast`,2e3,`Web Developer`,2e3,`Programmer`,2e3,`Learner & Problem Solver`,2e3],wrapper:`span`,speed:45,repeat:1/0,className:`\r
-                  text-xl\r
+                `,children:`Alam`})]}),(0,H.jsx)(`div`,{className:`\r
+                mt-4\r
+                sm:mt-7\r
+                min-h-[35px]\r
+                sm:min-h-[55px]\r
+                overflow-hidden\r
+              `,children:(0,H.jsx)(aj,{sequence:[`Electrical & Electronics Engineer`,2e3,`Engineering Technology Enthusiast`,2e3,`Web Developer`,2e3,`Programmer`,2e3,`Learner & Problem Solver`,2e3],wrapper:`span`,speed:45,repeat:1/0,className:`\r
+                  text-[11px]\r
+                  sm:text-xl\r
                   md:text-2xl\r
                   font-semibold\r
                   text-cyan-300\r
                 `})}),(0,H.jsx)(`p`,{className:`\r
                 max-w-xl\r
                 text-gray-400\r
-                mt-7\r
-                text-base\r
+                mt-4\r
+                sm:mt-7\r
+                text-[10px]\r
+                sm:text-base\r
                 md:text-lg\r
-                leading-8\r
-              `,children:`Passionate about Electrical & Electronic Engineering, programming, modern web development, and creating practical technology-driven solutions. I enjoy learning, experimenting, building projects, and turning ideas into reality.`}),(0,H.jsxs)(`div`,{className:`flex flex-wrap gap-5 mt-10`,children:[(0,H.jsxs)(G.a,{href:`#about`,whileHover:{scale:1.06,y:-3},whileTap:{scale:.96},className:`\r
+                leading-5\r
+                sm:leading-7\r
+                md:leading-8\r
+              `,children:`Passionate about Electrical & Electronic Engineering, programming, modern web development, and creating practical technology-driven solutions. I enjoy learning, experimenting, building projects, and turning ideas into reality.`}),(0,H.jsxs)(`div`,{className:`\r
+                flex\r
+                flex-wrap\r
+                gap-2\r
+                sm:gap-5\r
+                mt-5\r
+                sm:mt-10\r
+              `,children:[(0,H.jsxs)(G.a,{href:`#about`,whileHover:{scale:1.06,y:-3},whileTap:{scale:.96},className:`\r
                   group\r
                   flex\r
                   items-center\r
-                  gap-3\r
-                  px-7\r
-                  py-4\r
-                  rounded-2xl\r
+                  gap-1.5\r
+                  sm:gap-3\r
+                  px-3\r
+                  sm:px-7\r
+                  py-2\r
+                  sm:py-4\r
+                  rounded-xl\r
+                  sm:rounded-2xl\r
                   bg-gradient-to-r\r
                   from-cyan-400\r
                   to-purple-500\r
                   text-slate-950\r
+                  text-[9px]\r
+                  sm:text-base\r
                   font-bold\r
                   shadow-lg\r
                   shadow-cyan-500/20\r
                   transition\r
-                `,children:[`🚀 Explore My Journey`,(0,H.jsx)(fd,{className:`\r
+                  whitespace-nowrap\r
+                `,children:[`🚀 Explore`,(0,H.jsx)(`span`,{className:`hidden sm:inline`,children:`My Journey`}),(0,H.jsx)(fd,{className:`\r
                     group-hover:translate-x-1\r
                     transition-transform\r
                   `})]}),(0,H.jsxs)(G.a,{href:`/CV.pdf`,download:!0,whileHover:{scale:1.06,y:-3},whileTap:{scale:.96},className:`\r
                   flex\r
                   items-center\r
-                  gap-3\r
-                  px-7\r
-                  py-4\r
-                  rounded-2xl\r
+                  gap-1.5\r
+                  sm:gap-3\r
+                  px-3\r
+                  sm:px-7\r
+                  py-2\r
+                  sm:py-4\r
+                  rounded-xl\r
+                  sm:rounded-2xl\r
                   bg-white/5\r
                   border\r
                   border-white/15\r
                   backdrop-blur-xl\r
                   text-white\r
+                  text-[9px]\r
+                  sm:text-base\r
                   font-semibold\r
                   hover:bg-white/10\r
                   transition\r
-                `,children:[(0,H.jsx)(ad,{}),`Download CV`]})]}),(0,H.jsxs)(`div`,{className:`flex flex-wrap gap-7 mt-12`,children:[(0,H.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,H.jsx)(`div`,{className:`\r
-                    w-10\r
-                    h-10\r
-                    rounded-xl\r
+                  whitespace-nowrap\r
+                `,children:[(0,H.jsx)(ad,{}),`Download CV`]})]}),(0,H.jsxs)(`div`,{className:`\r
+                flex\r
+                flex-wrap\r
+                gap-2\r
+                sm:gap-7\r
+                mt-6\r
+                sm:mt-12\r
+              `,children:[(0,H.jsxs)(`div`,{className:`flex items-center gap-1.5 sm:gap-3`,children:[(0,H.jsx)(`div`,{className:`\r
+                    w-7\r
+                    h-7\r
+                    sm:w-10\r
+                    sm:h-10\r
+                    rounded-lg\r
+                    sm:rounded-xl\r
                     bg-cyan-400/10\r
                     border\r
                     border-cyan-400/20\r
                     flex\r
                     items-center\r
                     justify-center\r
-                  `,children:(0,H.jsx)(dd,{className:`text-cyan-400`})}),(0,H.jsxs)(`div`,{children:[(0,H.jsx)(`p`,{className:`text-white text-sm font-semibold`,children:`Engineering`}),(0,H.jsx)(`p`,{className:`text-gray-500 text-xs`,children:`EEE`})]})]}),(0,H.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,H.jsx)(`div`,{className:`\r
-                    w-10\r
-                    h-10\r
-                    rounded-xl\r
+                  `,children:(0,H.jsx)(dd,{className:`text-cyan-400 text-xs sm:text-base`})}),(0,H.jsxs)(`div`,{children:[(0,H.jsx)(`p`,{className:`text-white text-[8px] sm:text-sm font-semibold`,children:`Engineering`}),(0,H.jsx)(`p`,{className:`text-gray-500 text-[7px] sm:text-xs`,children:`EEE`})]})]}),(0,H.jsxs)(`div`,{className:`flex items-center gap-1.5 sm:gap-3`,children:[(0,H.jsx)(`div`,{className:`\r
+                    w-7\r
+                    h-7\r
+                    sm:w-10\r
+                    sm:h-10\r
+                    rounded-lg\r
+                    sm:rounded-xl\r
                     bg-purple-400/10\r
                     border\r
                     border-purple-400/20\r
                     flex\r
                     items-center\r
                     justify-center\r
-                  `,children:(0,H.jsx)(sd,{className:`text-purple-400`})}),(0,H.jsxs)(`div`,{children:[(0,H.jsx)(`p`,{className:`text-white text-sm font-semibold`,children:`Programming`}),(0,H.jsx)(`p`,{className:`text-gray-500 text-xs`,children:`Code`})]})]}),(0,H.jsxs)(`div`,{className:`flex items-center gap-3`,children:[(0,H.jsx)(`div`,{className:`\r
-                    w-10\r
-                    h-10\r
-                    rounded-xl\r
+                  `,children:(0,H.jsx)(sd,{className:`text-purple-400 text-xs sm:text-base`})}),(0,H.jsxs)(`div`,{children:[(0,H.jsx)(`p`,{className:`text-white text-[8px] sm:text-sm font-semibold`,children:`Programming`}),(0,H.jsx)(`p`,{className:`text-gray-500 text-[7px] sm:text-xs`,children:`Code`})]})]}),(0,H.jsxs)(`div`,{className:`flex items-center gap-1.5 sm:gap-3`,children:[(0,H.jsx)(`div`,{className:`\r
+                    w-7\r
+                    h-7\r
+                    sm:w-10\r
+                    sm:h-10\r
+                    rounded-lg\r
+                    sm:rounded-xl\r
                     bg-pink-400/10\r
                     border\r
                     border-pink-400/20\r
                     flex\r
                     items-center\r
                     justify-center\r
-                  `,children:(0,H.jsx)(Ju,{className:`text-pink-400`})}),(0,H.jsxs)(`div`,{children:[(0,H.jsx)(`p`,{className:`text-white text-sm font-semibold`,children:`Development`}),(0,H.jsx)(`p`,{className:`text-gray-500 text-xs`,children:`Web`})]})]})]})]}),(0,H.jsxs)(G.div,{initial:{opacity:0,scale:.7,x:70},animate:{opacity:1,scale:1,x:0},transition:{duration:1.1,delay:.2},className:`\r
+                  `,children:(0,H.jsx)(Ju,{className:`text-pink-400 text-xs sm:text-base`})}),(0,H.jsxs)(`div`,{children:[(0,H.jsx)(`p`,{className:`text-white text-[8px] sm:text-sm font-semibold`,children:`Development`}),(0,H.jsx)(`p`,{className:`text-gray-500 text-[7px] sm:text-xs`,children:`Web`})]})]})]})]}),(0,H.jsxs)(G.div,{initial:{opacity:0,scale:.7,x:50},animate:{opacity:1,scale:1,x:0},transition:{duration:1.1,delay:.2},className:`\r
               relative\r
               flex\r
               justify-center\r
-              lg:justify-end\r
-              pb-20\r
-              lg:pb-0\r
+              items-center\r
+              min-w-0\r
             `,children:[(0,H.jsx)(G.div,{animate:{rotate:360},transition:{duration:30,repeat:1/0,ease:`linear`},className:`\r
                 absolute\r
-                w-[330px]\r
-                h-[330px]\r
-                sm:w-[400px]\r
-                sm:h-[400px]\r
-                md:w-[470px]\r
-                md:h-[470px]\r
+                w-[155px]\r
+                h-[155px]\r
+                sm:w-[260px]\r
+                sm:h-[260px]\r
+                md:w-[400px]\r
+                md:h-[400px]\r
                 rounded-full\r
                 border\r
                 border-dashed\r
                 border-cyan-400/20\r
               `}),(0,H.jsx)(G.div,{animate:{rotate:-360},transition:{duration:22,repeat:1/0,ease:`linear`},className:`\r
                 absolute\r
-                w-[290px]\r
-                h-[290px]\r
-                sm:w-[350px]\r
-                sm:h-[350px]\r
-                md:w-[410px]\r
-                md:h-[410px]\r
+                w-[140px]\r
+                h-[140px]\r
+                sm:w-[220px]\r
+                sm:h-[220px]\r
+                md:w-[350px]\r
+                md:h-[350px]\r
                 rounded-full\r
                 border\r
                 border-purple-400/20\r
               `}),(0,H.jsx)(`div`,{className:`\r
                 absolute\r
-                w-[300px]\r
-                h-[300px]\r
-                md:w-[400px]\r
+                w-[140px]\r
+                h-[180px]\r
+                sm:w-[250px]\r
+                sm:h-[300px]\r
+                md:w-[380px]\r
                 md:h-[400px]\r
                 rounded-full\r
                 bg-cyan-400/10\r
-                blur-[80px]\r
-              `}),(0,H.jsx)(G.div,{animate:{y:[0,-8,0]},transition:{duration:5,repeat:1/0,ease:`easeInOut`},className:`\r
-  relative\r
-  z-10\r
-  w-[210px]\r
-  h-[275px]\r
-  sm:w-[270px]\r
-  sm:h-[345px]\r
-  md:w-[320px]\r
-  md:h-[400px]\r
-  lg:w-[360px]\r
-  lg:h-[450px]\r
-  p-[3px]\r
-  rounded-[35px]\r
-  bg-gradient-to-br\r
-  from-cyan-400\r
-  via-purple-500\r
-  to-pink-500\r
-  shadow-[0_0_60px_rgba(34,211,238,0.18)]\r
-`,children:(0,H.jsxs)(`div`,{className:`\r
+                blur-[60px]\r
+              `}),(0,H.jsx)(G.div,{animate:{y:[0,-5,0]},transition:{duration:5,repeat:1/0,ease:`easeInOut`},className:`\r
+                relative\r
+                z-10\r
+                w-[105px]\r
+                h-[150px]\r
+                sm:w-[180px]\r
+                sm:h-[245px]\r
+                md:w-[290px]\r
+                md:h-[380px]\r
+                lg:w-[350px]\r
+                lg:h-[450px]\r
+                p-[2px]\r
+                sm:p-[3px]\r
+                rounded-[22px]\r
+                sm:rounded-[30px]\r
+                bg-gradient-to-br\r
+                from-cyan-400\r
+                via-purple-500\r
+                to-pink-500\r
+                shadow-[0_0_45px_rgba(34,211,238,0.18)]\r
+              `,children:(0,H.jsxs)(`div`,{className:`\r
                   relative\r
                   w-full\r
                   h-full\r
-                  rounded-[37px]\r
+                  rounded-[20px]\r
+                  sm:rounded-[27px]\r
                   overflow-hidden\r
                   bg-slate-950\r
                 `,children:[(0,H.jsx)(`img`,{src:oj,alt:`Aftab Alam`,className:`\r
@@ -4790,44 +4846,56 @@ sm:mb-7\r
                     opacity-80\r
                   `}),(0,H.jsxs)(`div`,{className:`\r
                     absolute\r
-                    bottom-5\r
-                    left-5\r
-                    right-5\r
-                    rounded-2xl\r
-                    p-4\r
+                    bottom-2\r
+                    left-2\r
+                    right-2\r
+                    sm:bottom-4\r
+                    sm:left-4\r
+                    sm:right-4\r
+                    rounded-lg\r
+                    sm:rounded-2xl\r
+                    p-2\r
+                    sm:p-4\r
                     bg-black/40\r
                     backdrop-blur-xl\r
                     border\r
                     border-white/10\r
                   `,children:[(0,H.jsx)(`p`,{className:`\r
                       text-cyan-300\r
-                      text-[10px]\r
-                      tracking-[0.25em]\r
+                      text-[5px]\r
+                      sm:text-[9px]\r
+                      tracking-[0.15em]\r
+                      sm:tracking-[0.25em]\r
                       font-semibold\r
-                    `,children:`ENGINEERING • TECHNOLOGY`}),(0,H.jsx)(`p`,{className:`text-white font-bold mt-1`,children:`Learn • Build • Create`})]})]})}),(0,H.jsxs)(G.div,{animate:{y:[0,-10,0]},transition:{duration:4,repeat:1/0,ease:`easeInOut`},className:`\r
+                    `,children:`ENGINEERING • TECHNOLOGY`}),(0,H.jsx)(`p`,{className:`text-white font-bold text-[7px] sm:text-sm mt-1`,children:`Learn • Build • Create`})]})]})}),(0,H.jsxs)(G.div,{animate:{y:[0,-7,0]},transition:{duration:4,repeat:1/0,ease:`easeInOut`},className:`\r
                 absolute\r
                 z-30\r
-                top-8\r
-                -left-2\r
+                top-[10%]\r
+                -left-1\r
                 sm:left-0\r
                 lg:-left-8\r
-                px-5\r
-                py-3\r
-                rounded-2xl\r
+                px-2\r
+                py-1.5\r
+                sm:px-5\r
+                sm:py-3\r
+                rounded-xl\r
+                sm:rounded-2xl\r
                 bg-slate-900/95\r
                 backdrop-blur-xl\r
                 border\r
                 border-cyan-400/30\r
-                shadow-[0_0_25px_rgba(34,211,238,0.2)]\r
+                shadow-[0_0_20px_rgba(34,211,238,0.2)]\r
                 whitespace-nowrap\r
-              `,children:[(0,H.jsx)(`p`,{className:`text-gray-500 text-[10px] tracking-widest`,children:`FIELD`}),(0,H.jsx)(`p`,{className:`text-cyan-300 font-bold`,children:`EEE ⚡`})]})]})]})}),(0,H.jsx)(G.div,{animate:{y:[0,8,0],opacity:[.4,1,.4]},transition:{duration:2,repeat:1/0},className:`\r
+              `,children:[(0,H.jsx)(`p`,{className:`text-gray-500 text-[5px] sm:text-[10px] tracking-widest`,children:`FIELD`}),(0,H.jsx)(`p`,{className:`text-cyan-300 font-bold text-[8px] sm:text-base`,children:`EEE ⚡`})]})]})]})}),(0,H.jsx)(G.div,{animate:{y:[0,6,0],opacity:[.4,1,.4]},transition:{duration:2,repeat:1/0},className:`\r
           absolute\r
-          bottom-5\r
+          bottom-3\r
           left-1/2\r
           -translate-x-1/2\r
           text-gray-500\r
-          text-[10px]\r
-          tracking-[0.35em]\r
+          text-[7px]\r
+          sm:text-[10px]\r
+          tracking-[0.25em]\r
+          sm:tracking-[0.35em]\r
           uppercase\r
           whitespace-nowrap\r
         `,children:`Scroll to explore ↓`})]})}var cj=`/assets/IMG-20260321-WA0187-DVYrvm1L.jpg`;function lj(){let e=[{icon:(0,H.jsx)(Zu,{}),title:`Education`,text:`B.Sc. in Electrical & Electronic Engineering`,subtext:`University of Dhaka`,color:`cyan`},{icon:(0,H.jsx)($u,{}),title:`Nationality`,text:`Nepal 🇳🇵`,subtext:`International Student`,color:`purple`},{icon:(0,H.jsx)(Ku,{}),title:`Currently Based`,text:`Dhaka, Bangladesh 🇧🇩`,subtext:`University of Dhaka`,color:`pink`},{icon:(0,H.jsx)(Ju,{}),title:`Technology`,text:`React • JavaScript • Tailwind`,subtext:`Web Development`,color:`blue`}];return(0,H.jsxs)(`section`,{id:`about`,className:`\r
