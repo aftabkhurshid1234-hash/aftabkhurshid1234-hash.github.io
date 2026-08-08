@@ -4524,7 +4524,8 @@ No matching component was found for:
         w-full\r
         overflow-hidden\r
         flex\r
-        items-center\r
+        items-start\r
+lg:items-center\r
         px-3\r
         sm:px-6\r
         md:px-10\r
